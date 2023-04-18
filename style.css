@@ -1,0 +1,39 @@
+
+/* Background color for whole site */
+body {
+  background-color: rgb(60, 60, 60);
+}
+
+/* Colors of headers */
+h1 {
+  color: #ffcc00;
+}
+
+h2 {
+  color: #ffcc00;
+}
+
+h3 {
+  color: #ffcc00;
+}
+
+/* Color for text for visibility */
+p {
+  color: #00aaaa;
+}
+
+li {
+  color: #00aaaa;
+}
+
+summary {
+  color: #ffffff;
+}
+
+/* Colors for Links */
+a:link {
+  color: red;
+}
+a:visited {
+  color: rgb(69, 255, 69);
+}
