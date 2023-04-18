@@ -56,15 +56,3 @@ a:visited {
   padding: 1cm 1cm 1in 1in;
 }
 
-/* this underlines and that is it */
-.underline {
-  text-decoration: underline;
-}
-
-/* Text alignment */
-.rightalign {
-  text-align: right;
-}
-.leftalign {
-  text-align: left;
-}
