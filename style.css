@@ -5,29 +5,19 @@ body {
 }
 
 /* Colors of headers */
-h1 {
+h1,h2,h3 {
   color: #ffcc00;
-}
-
-h2 {
-  color: #ffcc00;
-}
-
-h3 {
-  color: #ffcc00;
+  font-family: Courier New,Courier,monospace;
 }
 
 /* Color for text for visibility */
-p {
-  color: #00aaaa;
-}
-
-li {
+p,li{
   color: #00aaaa;
 }
 
 summary {
   color: #ffffff;
+  font-family: Courier New,Courier,monospace;
 }
 
 /* Colors for Links */
