@@ -2,7 +2,7 @@
 name: Positional Feature
 about: Positioning items in the page
 title: "[FEATURE]"
-labels: ''
+labels: Styling
 assignees: Josh-Tan-20-09-13
 
 ---
