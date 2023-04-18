@@ -28,3 +28,30 @@ a:link {
 a:visited {
   color: hsl(120, 100%, 63.5%);
 }
+
+/* Box styling */
+.blackbox {
+  margin-top: 1cm;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 1in;
+  
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+
+  padding-top: 1in;
+  padding-bottom: 1in;
+  padding-left: 1cm;
+  padding-right: 1cm;
+}
+
+#bluebox {
+  margin: 2vh 2vh 1vw 1vw;
+
+  border-color: #8080ff;
+  border-radius: 3rem;
+  border-style: dashed;
+
+  padding: 1cm 1cm 1in 1in;
+}
