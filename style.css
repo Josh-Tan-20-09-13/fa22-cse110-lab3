@@ -6,6 +6,7 @@ body {
 
 /* Colors of headers */
 h1,h2,h3 {
+  background-color: hsl(0, 0%, 0%);
   color: #ffcc00;
   font-family: Courier New,Courier,monospace;
 }
@@ -25,5 +26,5 @@ a:link {
   color: red;
 }
 a:visited {
-  color: rgb(69, 255, 69);
+  color: hsl(120, 100%, 63.5%);
 }
