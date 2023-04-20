@@ -105,35 +105,28 @@
       <p>Contact us by filling out the for below (This actually does nothing)</p>
 
       <form class="blackbox">
-        <fieldset>
-          <label>True of False but with &lt;datalist&gt;?</label>
+        <fieldset class="grid-container">
+          <label class="grid-item">True of False but with &lt;datalist&gt;?</label>
           <input list="truefalse">
-          <datalist id="truefalse">
+          <datalist id="truefalse" class="grid-item">
             <option>True</option>
             <option>False</option>
           </datalist>
-          <br>
-          <label>Another True or False but with &lt;select&gt;?</label>
-          <select>
+          <label class="grid-item">Another True or False but with &lt;select&gt;?</label>
+          <select class="grid-item">
             <option>True</option>
             <option>False</option>
           </select>
-          <br>
-          <h4>Message:</h4>
-          <textarea></textarea>
-          <br>
-          <label>Name:</label>
-          <input type="text">
-          <br>
-          <label>Sell My Data:</label>
-          <input type="checkbox">
-          <br>
-          <label>I agree to sell my soul</label>
-          <input type="radio">
-          <br>
-          <label>Date:</label>
-          <input type="date">
-          <br>
+          <h4 class="grid-item">Message:</h4>
+          <textarea class="grid-item"></textarea>
+          <label class="grid-item">Name:</label>
+          <input type="text" class="grid-item">
+          <label class="grid-item">Sell My Data:</label>
+          <input type="checkbox" class="grid-item">
+          <label class="grid-item">I agree to sell my soul</label>
+          <input type="radio" class="grid-item">
+          <label class="grid-item">Date:</label>
+          <input type="date" class="grid-item">
           <button type="button">Send It!</button>
         </fieldset>
       </form>
