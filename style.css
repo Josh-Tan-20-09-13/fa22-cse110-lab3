@@ -64,3 +64,16 @@ a[href="#Summary"]
 
   padding: 1cm 1cm 1in 1in;
 }
+
+/* Flex box css */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.flex-item {
+  background: #0000ff;
+  padding: 7px;
+}
