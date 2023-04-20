@@ -3,7 +3,6 @@ body {
   background-color: rgb(60, 60, 60);
 }
 
-/* Colors of headers */
 * {
   background-color: hsl(0, 0%, 0%);
   color: #ffcc00;
@@ -11,7 +10,7 @@ body {
 }
 
 /* Color for text for visibility */
-p,li{
+label,p,li{
   color: #00aaaa;
 }
 
@@ -45,7 +44,7 @@ a[href="#Summary"]
   margin-left: 25px;
   margin-right: 1in;
   
-  border-color: black;
+  border-color: rgb(100, 100, 100);
   border-width: 10px;
   border-style: solid;
 
@@ -71,9 +70,26 @@ a[href="#Summary"]
   flex-direction: row;
   padding: 0;
   margin: 0;
+  gap: 10px 20px;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .flex-item {
   background: #0000ff;
   padding: 7px;
+}
+
+/* Grid css */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 25px;
+  justify-items: stretch;
+  background-color: rgb(100, 0, 0);
+}
+
+.grid-item {
+  justify-self: start;
+  color: rgb(100, 100, 100);
 }
