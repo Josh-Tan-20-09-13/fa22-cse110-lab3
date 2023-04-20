@@ -9,16 +9,6 @@ body {
   font-family: Courier New,Courier,monospace;
 }
 
-/* Color for text for visibility */
-label,p,li{
-  color: #00aaaa;
-}
-
-summary {
-  color: #ffffff;
-  font-family: Courier New,Courier,monospace;
-}
-
 /* Colors for Links */
 a:link {
   color: red;
@@ -32,7 +22,7 @@ a:hover {
 a:active {
   color: blue;
 }
-a[href="#Summary"]
+[href="#Summary"]
 {
   font-size: 32px;
 }
@@ -92,4 +82,18 @@ a[href="#Summary"]
 .grid-item {
   justify-self: start;
   color: rgb(100, 100, 100);
+}
+
+label:hover[type="notice"] {
+  color: rgb(0, 255, 255);
+}
+
+/* combinator selectors */
+ul > li {
+  border: 2px solid blue;
+}
+
+label,p,li ~ summary {
+  color: #00aaaa;
+  font-family: Courier New,Courier,monospace;
 }
