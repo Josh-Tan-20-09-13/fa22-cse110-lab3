@@ -98,7 +98,7 @@ a:active {
   color: rgb(100, 100, 100);
 }
 
-label:hover[type="notice"] {
+label:hover[warn="notice"] {
   color: rgb(0, 255, 255);
 }
 
