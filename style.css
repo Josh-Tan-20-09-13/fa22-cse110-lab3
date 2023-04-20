@@ -1,11 +1,10 @@
-
 /* Background color for whole site */
 body {
   background-color: rgb(60, 60, 60);
 }
 
 /* Colors of headers */
-h1,h2,h3 {
+* {
   background-color: hsl(0, 0%, 0%);
   color: #ffcc00;
   font-family: Courier New,Courier,monospace;
