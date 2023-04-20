@@ -112,3 +112,11 @@ label,p,li ~ summary {
   color: #00aaaa;
   font-family: Courier New,Courier,monospace;
 }
+
+/* Media width responsiveness */
+@media (max-width: 888px)
+{
+  p {
+    color: red;
+  }
+}
