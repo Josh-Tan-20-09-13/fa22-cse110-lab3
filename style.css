@@ -9,6 +9,20 @@ body {
   font-family: Courier New,Courier,monospace;
 }
 
+h1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+nav {
+  position: fixed;
+}
+
+ol {
+  display: none;
+}
+
 /* Colors for Links */
 a:link {
   color: red;
@@ -94,6 +108,7 @@ ul > li {
 }
 
 label,p,li ~ summary {
+  display: block;
   color: #00aaaa;
   font-family: Courier New,Courier,monospace;
 }
