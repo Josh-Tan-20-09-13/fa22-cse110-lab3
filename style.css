@@ -28,6 +28,12 @@ a:link {
 a:visited {
   color: hsl(120, 100%, 63.5%);
 }
+a:hover {
+  color: #00ffff;
+}
+a:active {
+  color: blue;
+}
 
 /* Box styling */
 .blackbox {
@@ -55,4 +61,3 @@ a:visited {
 
   padding: 1cm 1cm 1in 1in;
 }
-
